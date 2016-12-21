@@ -1,15 +1,6 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<%@ page pageEncoding="UTF-8" %>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Création d'une commande</title>
-        <link type="text/css" rel="stylesheet" href="css/style.css" />
-    </head>
-    <body>
-        <div>
+<%@ page pageEncoding="UTF-8"%>
+<%@ include file="/WEB-INF/include/header.jsp"%>
+        <div class="content">
             <form method="get" action="creationCommande">
                 <fieldset>
                     <legend>Informations client</legend>
@@ -65,5 +56,4 @@
                 <input type="reset" value="Remettre à zéro" /> <br />
             </form>
         </div>
-    </body>
-</html>
+<%@include file="/WEB-INF/include/footer.jsp"%>
