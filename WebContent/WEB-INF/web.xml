@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app 
+  xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0">
+	<servlet>
+	<servlet-name>Azz</servlet-name>
+	<servlet-class>UserConnect.UserApi</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>Client</display-name>
+		<servlet-name>Client</servlet-name>
+		<servlet-class>UserConnect.Client</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>Commande</display-name>
+		<servlet-name>Commande</servlet-name>
+		<servlet-class>UserConnect.Commande</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Azz</servlet-name>
+		<url-pattern>/toto</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Client</servlet-name>
+		<url-pattern>/newClient</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Commande</servlet-name>
+		<url-pattern>/newCommande</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
