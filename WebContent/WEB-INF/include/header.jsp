@@ -4,6 +4,6 @@
     <head>
         <meta charset="utf-8" />
         <title>Création d'un client</title>
-        <link type="text/css" rel="stylesheet" href="/css/style.css" />
+        <link type="text/css" rel="stylesheet" href="css/styles.css" />
     </head>
     <body>

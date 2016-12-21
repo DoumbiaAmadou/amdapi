@@ -1,6 +1,6 @@
 <%@ page pageEncoding="UTF-8"%>
 <%@ include file="/WEB-INF/include/header.jsp"%>
-<div>
+<div class="content">
 	<form method="get" action="creationClient">
 		<fieldset>
 			<legend>Informations client</legend>
@@ -22,6 +22,7 @@
 		</fieldset>
 		<input type="submit" value="Valider" /> <input type="reset"
 			value="Remettre à zéro" /> <br />
+
 	</form>
 </div>
 <%@include file="/WEB-INF/include/footer.jsp"%>
